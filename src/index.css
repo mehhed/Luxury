@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gallery-img-contaner:hover .gallery-img-name {
+  display: flex;
+}
+.gallery-img-name {
+  display: none;
+}
